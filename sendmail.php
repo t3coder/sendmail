@@ -30,7 +30,7 @@
 	$email->SetFrom('no-reply@domain-of-your-mail-server.com', 'domain-of-your-mail-server.com'); //Name is optional
 	$email->Subject   = 'Orders';
 	$email->Body      = 'Incoming Orders';
-	$email->AddAddress( 'deeloper@domain-of-your-mail-server.com' );
+	$email->AddAddress( 'developer@domain-of-your-mail-server.com' );
 	
 	$email->CharSet = 'utf-8';
 
